@@ -15,9 +15,7 @@ Function Write-Block {
             Mandatory=$false
         )]
         [ValidateLength(1,1)]
-        [string] $char = "*",
-
-        [switch] $noBorder
+        [string] $char = "*"
     )
 
     Begin {
